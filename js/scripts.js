@@ -1,8 +1,17 @@
 //Back-End Logic//
+function pingpong(index) {
+  if (index %15 === 0) {
+    var results = "ping-pong"
+  } else if (index %3 === 0) {
+     var results = "ping"
+  } else if (index %5 === 0) {
+     var results = "pong"
+  } else {
+     var results = index;
+  }
 
-// for (var index = 1; num %3 === 0; num +=1) {
-//     return("ping");
-
+return results;
+}
 
 //Specs:
 
@@ -18,30 +27,19 @@ $(document).ready(function() {
   $("form#numberfield").submit(function(event) {
     event.preventDefault();
     $("#result").text("");
-
+  //on submit result.text clears div
     //Get and store input
     var num = parseInt($("input#num").val());
     for (var index = 1; index < num; index +=1) {
+    results = pingpong(index);
         //if index is divisible by whater results = ping
         //else if index is divisbile by 6 results = pong
         //else results = index
-        if (index %15 === 0) {
-          var results = "ping-pong"
-        } else if (index %3 === 0) {
-           var results = "ping"
-        } else if (index %5 === 0) {
-           var results = "pong"
-        } else {
-           var results = index;
-        }
-        //alert("Now don't go crazy!");
-        //$('#drinks').show();
-      //} //else {
-        //$('#under-21').show();
 
 
       $("#result").append("<li>" + results + "</li>");
     }
 
   })
+
 });
