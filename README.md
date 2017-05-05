@@ -12,8 +12,8 @@ _This webpage translates user input into Pig Latin. It was created for an assign
 
 Behavior | Input | Output
 --- | --- | ---
-The program can count up to and return any number specified by the user. | 3 | 1,2,3
-The program can take any number divisible by 3 and return “ping” in its place. | 6 | "ping""
+The program can count up to and return any number specified by the user. | 3 | 1, 2, 3
+The program can take any number divisible by 3 and return “ping” in its place. | 6 | "ping"
 The program can take any number divisible by 5 and return “pong” in its place. | 10 | "pong"
 The program can take any number divisible by 15 and return “ping-pong” in its place | 30 | "ping-pong"
 The program can clear out previous response after every new input from user. |  |
