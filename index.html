@@ -10,14 +10,21 @@
   </head>
   <body>
     <div class="container">
-      <h1>Ping-Pong</h1>
+      <div class="jumbotron">
+        <div class="img">
+          <img src="img/ping-pong.jpg" width=16%>
+        </div>
+        <h1>Ping-Pong</h1>
+        <h3>(Sort of)<h3>
+      </div>
+      <h2>Rules:</h2>
+      <p>Ping-Pong will count up to your number from 1 with the following exceptions:<br><br>1. Numbers divisible by 3 become "ping."<br>2. Numbers divisible by 5 become "pong."<br>3. Numbers divisible by 15 become "ping-pong."</p>
       <form id="numberfield">
         <div class="form-group">
-          <label for="num">Enter a number</label>
+          <label for="num">Enter a number:</label>
           <input id="num" type="text">
         </div>
-
-        <button type="submit" class="btn">Submit!</button>
+        <button type="submit" class="btn">Ping-Pong!</button><br></br>
       </form>
       <div>
         <ul id="result"></ul>

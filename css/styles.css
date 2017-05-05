@@ -1,0 +1,16 @@
+body {
+  background-color: #C1DCD4;
+}
+
+.container {
+  margin: 25px;
+}
+
+btn {
+  color: red;
+}
+
+img {
+  float: right;
+  margin-top: -20px;
+}
