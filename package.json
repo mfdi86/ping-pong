@@ -1,0 +1,24 @@
+{
+  "name": "ping-pong",
+  "version": "1.0.0",
+  "description": "#### App takes a number from the user and returns a range of numbers from 1 to the input number with the following exceptions: Numbers divisible by 3 are replaced with \"ping\", numbers divisible by 5 are replaced with \"pong,\" numbers divisible by 15 are replaced with \"ping-pong.\" 05.05.2017_",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfdi86/ping-pong.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mfdi86/ping-pong/issues"
+  },
+  "homepage": "https://github.com/mfdi86/ping-pong#readme",
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "gulp": "^3.9.1",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
